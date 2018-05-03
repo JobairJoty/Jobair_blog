@@ -1,0 +1,106 @@
+body{
+  margin: 0px;
+  font-family:ubuntu;
+}
+
+header{
+  width: 280px;
+  height: 100%; 
+  background: #EEE;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed; 
+  border-right:1px dotted black;
+  background-image: url('../icons/jobair.png');
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  background-position:center 20px; 
+}
+
+#nav_a{
+  width:200px;
+  margin-top:150px;
+  margin-left:20px;
+}
+#nav_a a{
+  width:200px;
+  height:30px;
+  display:block;
+  text-decoration: none;
+  color:black;
+  transition: width 2s;
+ 
+}
+#nav_a a:hover,a:active{
+  color:teal;
+  font-size: 20px;
+}
+#nav_a hr{
+  border: 0; 
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#nav_connection{
+  margin-top:50px;
+  text-align: center;
+}
+
+.fa-facebook-square{
+  margin-right:10px;
+}
+.fa-youtube{
+  margin-right:10px;
+}
+.fa-linkedin{
+  margin-right:10px;
+}
+.fa-stack-overflow{
+  margin-right:10px;
+}
+.fa-github{
+  margin-right:10px;
+}
+
+.fa-facebook-square:hover{
+  color: rgb(66, 103, 178);
+}
+.fa-youtube:hover{
+  color:rgb(255, 0, 0);
+}
+.fa-linkedin:hover{
+  color:rgb(0, 119, 181);
+}
+.fa-stack-overflow:hover{
+  color:rgb(244, 128, 36);
+}
+.fa-github:hover{
+  
+}
+/*Section starts*/
+section{
+  width:auto;
+  margin-left:280px;
+  position:relative;
+}
+section img{
+  width:100%;
+}
+
+section #home_name{
+  position: absolute;
+  top: 200px;
+  left: 16px;
+  color:white;
+}
+#home_name h1 b{
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+#home_name h4{
+  background: black;
+  padding:5px;
+}
