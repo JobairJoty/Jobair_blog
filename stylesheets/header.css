@@ -88,7 +88,7 @@ section{
 section img{
   width:100%;
 }
-
+/*Home*/
 section #home_name{
   position: absolute;
   top: 200px;
@@ -98,9 +98,38 @@ section #home_name{
 #home_name h1 b{
   font-size: 40px;
   font-weight: bold;
+  color:#F4511E;
   
 }
 #home_name h4{
   background: black;
   padding:5px;
 }
+/*Home End*/
+
+/*About*/
+section #About{
+  position: relative;
+}
+section #About_info{
+  position: absolute;
+  top: 50px;
+  left: 16px;
+  color:white;
+}
+section #About p{
+  color:black;
+  width:300px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  color:black;
+}
+
+/*About End*/
